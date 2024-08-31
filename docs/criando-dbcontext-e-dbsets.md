@@ -33,6 +33,8 @@ namespace Projeto.Infrastructure.Persistence
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            // Todas as classes que implementam a interface IEntityTypeConfiguration<T>
+            // serão lidas e configuradas automaticamente
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
         }
     }

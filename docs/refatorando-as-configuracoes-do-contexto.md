@@ -1,5 +1,7 @@
 ### Refatorando as configurações do Contexto
 
+É possível criar classes que implementam a interface **IEntityTypeConfiguration<T>**, onde **T** é a classe a ser configurada, e migrar o código para ela.
+
 Criar uma pasta **Infrastructure/Persistence/Configurations**, e dentro dela criar os arquivos de configuração para cada DbSet.
 
 ~~~c#
