@@ -1,4 +1,4 @@
-# Configurando o ambiente
+## Configurando o ambiente
 
 - [x] Instalar o SQL Express e o SQL Management Studio.
 - [x] Uma alternativa ao SQL Management Studio é o Azure Data Studio.
