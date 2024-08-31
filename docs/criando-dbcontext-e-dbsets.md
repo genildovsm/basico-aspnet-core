@@ -5,6 +5,13 @@ Instalar os pacotes:
 - Microsoft.EntityFrameworkCore.SqlServer
 - Microsoft.EntityFrameworkCore.Tools
 
+Instalação via linha de comando:
+
+~~~sh
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+dotnet add package Microsoft.EntityFrameworkCore.Tools
+~~~
+
 Criar a classe de contexto.
 
 ~~~c#
@@ -30,4 +37,4 @@ namespace Projeto.Infrastructure.Persistence
 }
 ~~~
 
-[Home](../README.md) | 
+[Home](../README.md) | [Configuração das Entidades](/docs/configuracao-das-entidades.md)
