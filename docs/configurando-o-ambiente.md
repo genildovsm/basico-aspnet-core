@@ -1,12 +1,12 @@
 ## Configurando o ambiente
 
-- [x] Instalar o SQL Express e o SQL Management Studio.
-- [x] Uma alternativa ao SQL Management Studio é o Azure Data Studio.
+- Instalar o SQL Express e o SQL Management Studio.
+- Uma alternativa ao SQL Management Studio é o Azure Data Studio.
 
-Instalar as ferramentas do EF Tools globalmente
+Instalar as ferramentas do **EF Tools** globalmente
 
-~~~bash
+~~~sh
 dotnet tool install --global dotnet-ef
 ~~~
 
-[Home](../README.md)
+[Home](../README.md) | [Criando DbContext e DbSets](/docs/criando-dbcontext-e-dbsets.md)
